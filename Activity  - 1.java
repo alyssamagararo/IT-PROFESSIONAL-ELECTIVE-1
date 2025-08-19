@@ -1,8 +1,9 @@
 // Magararo, Alyssa M.
 // BSIT-3B
 // Group-3 - ITELEC1
+// Activity 1
 
-public class Calculator {
+public class BasicMath {
     public static void main(String[] args) {
         double num1 = 15;
         double num2 = 5;
