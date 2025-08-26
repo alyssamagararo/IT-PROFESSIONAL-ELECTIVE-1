@@ -18,13 +18,7 @@ public class MainActivity extends AppCompatActivity {
         super.onStart();
         Log.d(TAG, "onStart: Activity is visible now!");
     }
-
-    @Override
-    protected void onRestart() {
-        super.onRestart();
-        Log.d(TAG, "onRestart: Activity is coming back to screen!");
-    }
-
+    
     @Override
     protected void onResume() {
         super.onResume();
