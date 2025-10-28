@@ -1,0 +1,50 @@
+//Magararo, Alyssa M.
+//BSIT-3B
+//Exercise #6 xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp"
+    android:background="#FAFAFA">
+
+    <!-- Title -->
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex6_title"
+        android:textSize="24sp"
+        android:textColor="#212121"
+        android:layout_marginBottom="16dp"
+        android:fontFamily="sans-serif-medium"/>
+
+    <!-- Accessible Image -->
+    <ImageView
+        android:id="@+id/imgExample"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/image1"
+        android:contentDescription="@string/ex6_image_desc"
+        android:layout_marginBottom="16dp"
+        android:scaleType="centerInside"/>
+
+    <!-- Buttons -->
+    <Button
+        android:id="@+id/btnAction1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex6_btn1"
+        android:layout_marginBottom="8dp"/>
+
+    <Button
+        android:id="@+id/btnAction2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/ex6_btn2"/>
+
+</LinearLayout>
