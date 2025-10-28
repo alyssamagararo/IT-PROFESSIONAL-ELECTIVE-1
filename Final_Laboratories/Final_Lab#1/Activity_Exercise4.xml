@@ -1,0 +1,38 @@
+//Magararo, Alyssa M.
+//BSIT-3B
+//Exercise # 4 xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:padding="16dp">
+
+    <!-- Submit Button -->
+    <Button
+        android:id="@+id/btnStandard"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Submit" />
+
+    <!-- ImageButton -->
+    <ImageButton
+        android:id="@+id/imgButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@mipmap/ic_launcher"
+        android:contentDescription="Image Button"
+        android:layout_marginTop="16dp" />
+
+    <!-- ToggleButton -->
+    <ToggleButton
+        android:id="@+id/toggleButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textOn="ON"
+        android:textOff="OFF"
+        android:layout_marginTop="16dp"/>
+</LinearLayout>
