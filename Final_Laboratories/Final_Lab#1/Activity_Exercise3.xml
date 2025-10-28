@@ -1,0 +1,45 @@
+//Magararo, Alyssa M.
+//BSIT-3B
+//Exercise #3 xml
+
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".Exercise3Activity">
+
+    <!-- Step 1: TextView for instructions -->
+    <TextView
+        android:id="@+id/tvInstructions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Please enter your name and select your country:"
+        android:textSize="18sp"
+        android:paddingBottom="8dp" />
+
+    <!-- Step 2: EditText for user input -->
+    <EditText
+        android:id="@+id/etName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Enter your name" />
+
+    <!-- Step 3: AutoCompleteTextView for country suggestions -->
+    <AutoCompleteTextView
+        android:id="@+id/autoCountry"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Choose your country"
+        android:completionThreshold="1" />
+
+    <!-- Step 4: Spinner for dropdown options -->
+    <Spinner
+        android:id="@+id/spOptions"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp" />
+
+</LinearLayout>
